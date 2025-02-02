@@ -60,7 +60,7 @@ If you use Python, execute the following command.
 py generate_data.py
 ```
 
-5. Copy the data.json generated in the script directory and the `index.html` in the dist ` directory, and put them under your cloud server host to access them.
+5. Copy the data.json generated in the script directory and the `index.html` in the `dist` directory, and put them under your cloud server host to access them.
 
 ## screenshot
 
