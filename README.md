@@ -44,7 +44,7 @@ This is a script for generating mobile bookmark web pages. You can export your b
 
 2. Export your Chrome bookmark and rename it `bookmarks.html`.
 
-3. Copy' bookmarks.html' to the' script' directory.
+3. Copy `bookmarks.html` to the `script` directory.
 
 4. if you use Nodejs, open CMD and execute the following command.
 
