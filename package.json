@@ -1,0 +1,20 @@
+{
+  "name": "bookmark",
+  "version": "1.0.0",
+  "description": "Scrawled code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jelly",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "gulp-inline-source": "^4.0.0"
+  }
+}

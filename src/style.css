@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+.bookmark-container {
+    padding: 15px;
+}
+
+.folder, .bookmark {
+    margin-left: 10px;
+}
+
+.bookmark{
+    display: inline;
+}
+
+.folder > .folder-title {
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 5px;
+    font-weight: 700;
+    border-radius: 6px;
+    background-color: #1864ab;
+}
+
+.folder-content {
+    display: none;
+    padding-left: 15px;
+}
+
+.bookmark a {
+    margin: 6px 0;
+    padding: 10px;
+    color: #343a40;
+    border-radius: 6px;
+    display: inline-block;
+    text-decoration: none;
+    word-break: break-all;
+    background-color: #fff;
+    box-shadow: 3px 3px 20px -8px rgb(0 0 0 / 30%);
+}
+
+.bookmark a:hover {
+    color: #fff;
+    background-color: #1971c2;
+}
+
+.folder.open > .folder-content {
+    display: block;
+}
